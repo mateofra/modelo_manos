@@ -1,0 +1,48 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Large datasets and generated data
+data/
+weights/
+st-gcn/data/
+st-gcn/resource/media/
+st-gcn/work_dir/
+work_dir/
+
+# Large model and weight files
+models/**/*.pt
+models/**/*.pth
+models/**/*.onnx
+models/**/*.bin
+models/**/*.ckpt
+models/**/*.caffemodel
+st-gcn/**/*.pt
+st-gcn/**/*.pth
+st-gcn/**/*.onnx
+st-gcn/**/*.bin
+st-gcn/**/*.ckpt
+st-gcn/**/*.caffemodel
+
+# Video and archive assets (usually heavy)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.gif
+*.zip
+*.7z
+*.tar
+*.gz
+*.task
+
+# Large NumPy artifacts
+*.npy
+*.npz

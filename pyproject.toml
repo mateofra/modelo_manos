@@ -1,0 +1,21 @@
+[project]
+name = "modelo-manos"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "argparse>=1.4.0",
+    "h5py>=3.16.0",
+    "imageio>=2.37.3",
+    "matplotlib>=3.8.0",
+    "mediapipe>=0.10.32",
+    "numpy>=2.4.3",
+    "opencv-python>=4.13.0.92",
+    "Pillow>=10.0.0",
+    "pyyaml>=6.0.3",
+    "scikit-video>=1.1.11",
+    "torch>=2.10.0",
+    "torchvision>=0.25.0",
+    "tqdm>=4.66.0",
+]
